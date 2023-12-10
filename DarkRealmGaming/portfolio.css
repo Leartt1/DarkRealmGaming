@@ -1,0 +1,134 @@
+body{
+    background: linear-gradient(177deg, #050301 -30.15%, #120A01 92.85%);
+}
+
+ul li span img{
+    vertical-align: middle;
+}
+.home{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding-top: 50px;
+}
+.home-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    text-align: center;
+}
+.home-stats{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    background: #1C140F;
+}
+.home-stats1{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 30px;
+}
+.vertical-line{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.video-container{
+    padding-top: 132px;
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+#customVideo{
+    border-radius: 30px;
+    width: 60%;
+}
+.video-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 32%;
+}
+.games{
+    padding-top: 189px;
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.games-desc{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 30px;
+    justify-content: center;
+}
+.games1{
+    padding-bottom: 118px;
+}
+.customers{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #1C140F;
+    padding-top: 88px;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+.subscribe-1{
+    padding-top: 147px;
+    padding-bottom: 153px;
+}
+.subscribe{
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+    .home-stats{
+        flex-direction: column;
+    }
+    .home-stats1{
+        justify-content: center;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .video-container{
+        flex-direction: column;
+    }
+    .video-desc{
+        width: 100%;
+    }
+    #customVideo{
+        width: 100%;
+    }
+    .games{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .games img{
+        max-width: 100%;
+    }
+    .games-desc{
+        width: 100%;
+    }
+    .bottom-button{
+        padding-bottom: 30px;
+    }
+    .wrapper i:first-child,
+    .wrapper i:last-child{
+        display: none;
+    }
+}

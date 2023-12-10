@@ -1,0 +1,151 @@
+body{
+    background: linear-gradient(180deg, #010101 -15.71%, #1A0E01 99.57%);
+    
+}
+.home{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
+}
+.home-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+}
+.home-img img{
+    max-width: 100%;
+}
+.work-with-us{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.work-reasons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 63px;
+}
+.work-r1{
+    border-radius: 20px;
+    background: #1C140F;
+    padding: 71px 40px;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.work-r1:hover{
+    transform: scale(1.2);
+}
+.work-r1 h2{
+    font-size: 14px;
+    line-height: 187.5%; 
+}
+.work-r1 h1{
+    font-size: 20px;
+    line-height: 187.5%; 
+}
+.work-r1 p{
+    font-size: 14px;
+    line-height: 187.5%;
+}
+.work-h3,
+.work-h4,
+.work-h2 {
+    max-width: fit-content;
+    padding: 3px 10px;
+    border-radius: 8px;
+}
+
+.work-h2{
+    background: rgba(176, 0, 220, 0.11);
+}
+.work-h3{
+    background: rgba(220, 66, 0, 0.11);
+}
+.work-h4{
+    background: rgba(0, 220, 141, 0.11);
+}
+.league{
+    margin-top: 147px;
+    background: #1C140F;
+}
+.league-container img{
+    max-width: 100%;
+}
+.league-container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 113px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 113px;
+}
+.league-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 50%;
+}
+.team{
+    padding-top: 150px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.team-imgs{
+    padding-top: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.team-1{
+    border-radius: 20px;
+    background: #1C140F;
+    padding: 56px 80px;
+    text-align: center;
+}
+.subscribe-1{
+    padding-top: 147px;
+    padding-bottom: 153px;
+}
+.subscribe{
+    padding-bottom: 30px;
+}
+
+
+/* Mobile Responsivity */
+@media screen and (max-width: 768px) {
+    .home{
+        flex-direction: column;
+    }
+    .home-desc{
+        width: 100%;
+    }
+    .work-reasons{
+        flex-direction: column;
+    }
+    .league-container{
+        flex-direction: column;
+    }
+    .league-desc{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .team-imgs{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .loop{
+        gap: 30px;
+        flex-direction: column;
+      }
+    
+}
